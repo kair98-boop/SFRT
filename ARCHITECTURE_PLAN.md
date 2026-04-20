@@ -2,7 +2,7 @@
 
 ## Why this refactor exists
 
-The current `vhee_topas` codebase already has a real core model, but the
+The current `topas` codebase already has a real core model, but the
 reusable logic is spread across phase-specific scripts. The aim here is to
 separate:
 
