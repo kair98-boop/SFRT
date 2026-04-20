@@ -1,12 +1,12 @@
 # vhee-topas-unified
 
-`vhee-topas-unified` is a refactored Python package for spatially fractionated
+`topas-unified` is a Python package for spatially fractionated
 radiotherapy research workflows. It pulls reusable phantom generation, planning,
 TOPAS I/O, biology, and metric code out of the older `vhee_topas` research
 scripts and exposes them through one installable package and one CLI.
 
 This repository is intended to become the cleaner public home for the model as
-the remaining legacy workflows are migrated across.
+the remaining  workflows are migrated across.
 
 ## Current Status
 
@@ -33,13 +33,7 @@ What still uses the legacy bridge:
 - `bioopt`
 - `candidate-tradeoff`
 
-## Installation
 
-```bash
-git clone <your-github-url> vhee-topas-unified
-cd vhee-topas-unified
-python -m pip install -e .
-```
 
 The package currently requires:
 
@@ -116,10 +110,9 @@ installs the package, compiles the source tree, and runs the same smoke tests.
 
 ## Design Notes
 
-- Native workflows use package-managed assets where possible.
 - Generated outputs are written under `runs/` and are ignored by Git.
 - The legacy bridge remains available so migration can continue without blocking
-  current research workflows.
+  current  workflows.
 - The longer-term migration map is in [ARCHITECTURE_PLAN.md](ARCHITECTURE_PLAN.md).
 
 ## Known Limitations
@@ -131,7 +124,7 @@ installs the package, compiles the source tree, and runs the same smoke tests.
 
 ## Near-Term Roadmap
 
-1. Migrate `detailed-physical` into the native workflow layer.
-2. Migrate `bioaware` into the native workflow layer.
-3. Migrate the optimization loop into the native workflow layer.
+1. Migrate `detailed-physical` into the  workflow.
+2. Migrate `bioaware` into the  workflow .
+3. Migrate the optimization loop into the  workflow.
 4. Expand tests around workflow outputs and CLI behavior.
