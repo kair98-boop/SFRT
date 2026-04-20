@@ -1,4 +1,4 @@
-# vhee-topas-unified
+#topas-unified
 
 `topas-unified` is a Python package for spatially fractionated
 radiotherapy research workflows. It pulls reusable phantom generation, planning,
