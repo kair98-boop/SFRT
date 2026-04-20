@@ -122,9 +122,4 @@ installs the package, compiles the source tree, and runs the same smoke tests.
   legacy repo.
 - Physical workflows require a local TOPAS executable and Geant4 data.
 
-## Near-Term Roadmap
 
-1. Migrate `detailed-physical` into the  workflow.
-2. Migrate `bioaware` into the  workflow .
-3. Migrate the optimization loop into the  workflow.
-4. Expand tests around workflow outputs and CLI behavior.
