@@ -1,7 +1,7 @@
 #topas-unified
 
 `topas-unified` is a Python package for spatially fractionated
-radiotherapy research workflows. It pulls reusable phantom generation, planning,
+radiotherapy  workflows. It pulls reusable phantom generation, planning,
 TOPAS I/O, biology, and metric code out of the older `vhee_topas` research
 scripts and exposes them through one installable package and one CLI.
 
