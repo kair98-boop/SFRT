@@ -117,7 +117,7 @@ installs the package, compiles the source tree, and runs the same smoke tests.
 
 ## Known Limitations
 
-- Not all end-to-end workflows are native yet.
+- Not all end-to-end workflows are local and complete yet.
 - The richer biology-aware and optimization paths still depend on the sibling
   legacy repo.
 - Physical workflows require a local TOPAS executable and Geant4 data.
